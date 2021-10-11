@@ -125,7 +125,7 @@
         <div v-if="menu == 'ramen'" class="d-flex flex-row justify-content-between mb-5 pb-5 wrapper_card_slide">
         <div v-for="item in ramen" :key="item.id">
         <div class="card_detail_menu_wrapper d-flex flex-row">
-            <div class="card text-white detail_menu_wrapper border-0 w-100">
+            <div class="card text-white detail_menu_wrapper border-0  mr-5 w-100">
               <img :src="require(`../assets/${item.images}`)" width="420px" height="500px" class="card-img" alt="...">
               <div class="card-img-overlay ml-4 d-flex title_detail_menu_wrapper">
               <div class="card-body"></div>
